@@ -12,10 +12,10 @@ intv = '15m'
 
 yfTicker = yf.Ticker(ticker1)
 
-if():
-    data1 = pd.DataFrame(yfTicker.history(interval= intv))
 
-data1.to_csv("D:\Money-In\Foresight Research\data\%s-%s.csv" %(ticker1, intv))
+data1 = pd.DataFrame(yfTicker.history(interval= intv))
+
+data1.to_csv("ForeSight-Research-Unlimited/ema_convergence_strat/data/%s-%s.csv" %(ticker1, intv))
 
 
 code.interact(local=locals())
