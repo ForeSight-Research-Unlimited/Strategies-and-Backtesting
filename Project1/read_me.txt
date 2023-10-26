@@ -1,1 +1,1 @@
-Basic functions on data retrieval and processing
+Infrastructure for retrieval of data and efficient backtesting
